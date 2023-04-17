@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* @font-face {
+  font-family: 'Varela Round';
+  src: url(../public/static/VarelaRound-Regular.ttf) format('opentype');
+} */
+/* 
 @font-face {
-  font-family: Branch;
-  src: url('../public/static/VarelaRound-Regular.ttf') format('opentype');
-}
+  font-family: Varela;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../public/static/VarelaRound-Regular.ttf) format('truetype');
+} */
+
 * {
-  font-family: Branch;
+  /*  font-family: Varela; */
+  font-family: 'Varela Round', sans-serif;
 }
 
-#header-title {
-  font-family: Alcatraz;
-}
 .task-list-item::before {
   @apply hidden;
 }

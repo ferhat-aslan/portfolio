@@ -7,7 +7,7 @@ import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 
-const LayoutWrapper = ({ children }) => {
+const LayoutWrapper = ({ textClass, children }) => {
   return (
     <SectionContainer>
       <div className="flex h-screen flex-col justify-between">
@@ -16,7 +16,7 @@ const LayoutWrapper = ({ children }) => {
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="mr-3">
-                  <img height={35} className="max-h-[35px]" src="/static/code-2.png" />
+                  <img height={35} className="max-h-[35px]" src="./static/code-2.png" />
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:hidden">

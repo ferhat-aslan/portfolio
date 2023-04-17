@@ -21,7 +21,7 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <h1 className="font-alcatraz bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-3xl font-extrabold leading-9 tracking-tight text-transparent sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text  text-3xl font-extrabold leading-9 tracking-tight text-transparent sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Ferhat Aslan
           </h1>
           <div className="terminal hidden min-h-[100px] w-full flex-col items-start justify-start rounded-lg bg-slate-800">
