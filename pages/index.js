@@ -39,7 +39,7 @@ export default function Home({ posts }) {
               <div className="text-sm text-white opacity-90">ferhataslan@feslan ~ %</div>
             </span>
           </div>
-          <p className="text-lg leading-7 text-gray-500  dark:text-gray-400">
+          <p className="text-base leading-7 text-gray-500  dark:text-gray-400">
             {/* {siteMetadata.description} */}A Software Developer who is focused on Web and IoT
             based in Turkiye. I studied Electric/Electronic Engineering and Civil Engineering. I
             have solid experience/knowledge about Web Development, Angular, Typescript, Javascript,
