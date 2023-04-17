@@ -17,6 +17,7 @@ const myTechStack = [
   { src: '/static/techStack/nextjs.png', title: 'Next.Js' },
   { src: '/static/techStack/bootstrap.png', title: 'Bootstrap' },
   { src: '/static/techStack/nodejs.png', title: 'Node.Js' },
+  { src: '/static/techStack/esp32.png', title: 'ESP32 Wifi BLE' },
 ]
 
 export default myTechStack

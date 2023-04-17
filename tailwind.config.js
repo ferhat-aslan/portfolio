@@ -26,7 +26,6 @@ module.exports = {
       },
       fontFamily: {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
-        alcatraz: ['Alcatraz'],
       },
       colors: {
         primary: colors.teal,

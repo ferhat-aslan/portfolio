@@ -5,17 +5,17 @@ const siteMetadata = {
   description: 'A Software Developer who is focused on Web and IoT',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://feslan.github.io',
+  siteRepo: 'https://github.com/feslan/feslan.github.io',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  email: 'aslanferhat16@gmail.com',
+  github: 'https://github.com/ferhat-aslan',
+  twitter: 'https://twitter.com/feslan_',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/aslanferhat',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

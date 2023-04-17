@@ -1,19 +1,16 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
+    title: 'Via Media Editor Mobile App',
+    description: `Native Java Android Video, Image, Audio Editor App. Fmmpeg lib was used for media editing.`,
+    imgSrc: '/static/images/via-media-editor.png',
     href: 'https://www.google.com',
+    tags: ['Java', 'Fmmpeg', 'Android Studio', 'Android', 'Google Admob'],
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Ng Dxf Viewer',
+    description: `Three.Js WebGL based a CAD Dxf viewer web app. The app shows dxf projects and layers. User can hide/show layers, zoom and pan.`,
+    imgSrc: '/static/images/ng-dxf-viewer.png',
+    href: 'https://www.google.com',
   },
 ]
 

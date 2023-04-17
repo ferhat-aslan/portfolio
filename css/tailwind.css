@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: Alcatraz;
-  src: url('../public/static/Alcatraz\ Demo\ 400.otf') format('opentype');
+  font-family: Branch;
+  src: url('../public/static/VarelaRound-Regular.ttf') format('opentype');
 }
+* {
+  font-family: Branch;
+}
+
 #header-title {
   font-family: Alcatraz;
 }
@@ -25,8 +29,15 @@
   @apply my-5;
 }
 
-/* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.dot {
+  visibility: hidden !important;
+}
+
+.dot-parent:hover .dot {
+  visibility: visible !important;
 }
