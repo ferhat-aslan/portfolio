@@ -51,7 +51,7 @@ export default function Home({ posts }) {
         </section>
         <main className="grid w-full grid-cols-2 justify-items-center gap-5 border-none sm:grid-cols-4 md:grid-cols-6">
           {myTechStack.map((res) => (
-            <TechStack src={res.src} text={res.title} />
+            <TechStack key={res.title} src={res.src} text={res.title} />
           ))}
         </main>
         <section className="font-alcatraz mb-10 mt-2 w-full pt-2 text-center text-2xl">
@@ -59,7 +59,7 @@ export default function Home({ posts }) {
         </section>
         <main className="mt-3 flex w-full flex-col items-start justify-start gap-y-2 border-none">
           {experienceData.map((exp) => (
-            <article className="mb-4 w-full">
+            <article key={exp.title} className="mb-4 w-full">
               <h1 className="text-lg">
                 {exp.title} <span className="text-violet-500"> {exp.company}</span>
               </h1>
@@ -67,7 +67,10 @@ export default function Home({ posts }) {
               <div className="text-sm opacity-70">{exp.description}</div>
               <div className="mt-2 flex flex-row flex-wrap items-center justify-start gap-2">
                 {exp.skills.map((skill) => (
-                  <span className="cursor-pointer rounded-md bg-sky-500 px-2 py-1 text-xs text-white">
+                  <span
+                    key={skill}
+                    className="cursor-pointer rounded-md bg-sky-500 px-2 py-1 text-xs text-white"
+                  >
                     {skill}
                   </span>
                 ))}

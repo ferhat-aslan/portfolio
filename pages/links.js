@@ -16,7 +16,7 @@ export default function Links() {
             <Link
               href={link.href}
               target="blank"
-              className="flex h-[250px] min-h-[250px] w-[250px] min-w-[250px] cursor-pointer flex-col items-start justify-start rounded-lg bg-indigo-500 transition hover:scale-90"
+              className="flex h-[250px] min-h-[250px] w-[250px] min-w-[250px] cursor-pointer flex-col items-start justify-start rounded-lg border border-solid bg-transparent transition hover:scale-95"
               key={link.title}
             >
               <img className="h-4/5  w-full rounded-t-lg object-cover" src={link.image} />
