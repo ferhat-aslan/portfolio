@@ -46,7 +46,7 @@ function mixPanel_init() {
     }
     let timezone = Intl.DateTimeFormat().resolvedOptions().timeZone
 
-    mixpanel.init('875e9ff0a62dc433a8e4a96e88d26069', { debug: true })
+    mixpanel.init('875e9ff0a62dc433a8e4a96e88d26069')
     var lang = navigator.language
     mixpanel.track('anasayfa', {
       browserLanguage: lang,
