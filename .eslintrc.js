@@ -1,14 +1,6 @@
 module.exports = {
-  root: true,
-  env: {
-    browser: true,
-    amd: true,
-    node: true,
-    es6: true,
+  extends: 'next/core-web-vitals',
+  rules: {
+    'react/no-unescaped-entities': 'off',
   },
-"parser": "babel-eslint",
-  "parserOptions": {
-    "sourceType": "module",
-    "allowImportExportEverywhere": true
-  }
 }

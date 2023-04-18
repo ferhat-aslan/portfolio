@@ -61,6 +61,11 @@ module.exports = {
 
   assetPrefix: '.',
   reactStrictMode: true,
+  swcMinify: true,
+  experimental: {
+    forceSwcTransforms: true,
+    appDir: true,
+  },
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
     dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
